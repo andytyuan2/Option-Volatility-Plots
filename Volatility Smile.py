@@ -2,8 +2,6 @@ from datetime import date
 from datetime import datetime as dt
 import yfinance as yf
 import matplotlib.pyplot as plt
-# X axis = time to maturity, Y axis = strike, Z axis = implied volatility
-dict = {}
 
 # TICKER
 ticker = 'aapl'                                             # not case sensitive
